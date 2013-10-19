@@ -6,8 +6,12 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
+*.exe
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+
+*.spell
