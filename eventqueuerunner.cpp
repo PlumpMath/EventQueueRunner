@@ -11,6 +11,7 @@ int EventQueueRunner::run()
 	{
 	Herbs::EventQueue::Entry e=q.entryNext();
 	uintmax_t time=0;
+	m_stop=0;
 	while(!m_stop)
 		{
 		if(e.m_delay)
